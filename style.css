@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans:wght@200;300;400;600;700;800&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans:wght@200;300;400;600;700;800&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(179, 176, 176);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 23px;
+    padding: 22px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+ /* background-color: yellow;  */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    height: 54vh;
+    width: 75vw;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.devPic img{
+    height: 54vh;
+    
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3rem;
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+     font-size: 2.2rem;
+}
+.moreabout{
+    font-size: 1rem;
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn{
+    margin: 14px 2px;
+    padding: 9px 13px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    background-color:dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+/* For contact form */
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.contactForm{
+    padding: 0 34px;
+    padding: 50px;
+    font-family: 'Fira Sans', sans-serif; 
+}
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 13px 0;
+}
+.contactForm form div{
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+    width: 24vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+/* For Blog Page */
+
+.blogItem{
+    margin: 15px;
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+.blogContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 3px 0;
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: small;
+}
+/* For Intro page */
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 22px;  
+}
+p{
+    font-family: 'Fira Sans', sans-serif;;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.AboutMe{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 33px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.skillContainer{
+    padding: 12px;
+    
+}
+.skill{
+    width: 270px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.hundred{
+    width: 300px;
+    background-color: yellow;
+}
+.fifty{
+    width: 180px;
+    background-color: yellow;
+}
+.s5{
+    width: 220px;
+    background-color: yellow;
+}
+.e{
+    width: 220px;
+    background-color: yellow;
+} 
+.sidebarGo{
+        transform: translate(-433px, 0px);
+        position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 115px;
+    margin-top: 10px;
+}
+.project {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+
+}
+.project ul{
+    list-style-type: disc;
+    margin-left: 33px;
+}
+@media(max-width: 1200px){
+    /* *{
+        background-color: blue;
+    } */
+    /* .sidebar{
+        transform: translate(-433px, 0px);
+        position: absolute;
+    } */
+
+
+}
+
